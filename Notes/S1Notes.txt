@@ -1,0 +1,100 @@
+L1 How to Get Help
+L2 Join Our Community
+L3 Course Resources
+
+How to Get Help:
+1) Udemy QA
+2) Twitter: @ste_grider
+3) Email: ste.grider@gmail.com
+4) Discord Community: https://discord.gg/vvcyvjDkdC
+
+Finished Code
+
+Finished code is attached to each applicable lecture throughout the course. If you get stuck at any point you can download the code and compare it against yours with a diff tool like Diffchecker or VSCode's built-in comparison tool.
+
+Diagrams
+
+The diagrams shown in the course are attached to this lecture note as a zip file.
+
+Download the file and extract it somewhere on your computer.
+
+Visit diagrams.net (formerly draw.io).
+
+Select Open Existing Diagram and use the file explorer to select the diagram file from your computer.
+
+or
+
+Click on File from the diagrams.net menu.
+
+Select Open From Device and use the file explorer to select the diagram file from your computer.
+
+Note - Please understand, if a diagram or group of diagrams is missing, this means that we no longer have them to share. You'll need to use a good screenshot browser extension to make a copy from the video lecture.
+
+My Environment
+
+Editor:
+
+VS Code as my code editor - https://code.visualstudio.com/
+
+In this course, you will frequently see my code 'jump', or reformat itself whenever I save a file.  This is done automatically by https://prettier.io/
+
+Terminal:
+
+I use Iterm2 as my terminal - https://www.iterm2.com/
+
+Inside my terminal, I run the shell https://github.com/robbyrussell/oh-my-zsh with the default theme 'Robby Russell'
+
+
+L4 Let's Build an App!
+L5 Critical Questions
+    JSX is a mixture of HTML elements and JS that React uses to write HTML using JSX functions called "Components":
+        1. Component declaration
+            function 'Component Name' () {
+            return (<div> ... </div>)  
+            } 
+            
+        2. Component call
+            <'Component Name' />
+
+Quiz 1: Core Concepts
+    1) The primary goals of React are to...
+        Show HTML to the user and change that HTML when the user does something
+    2) Components are used to tell React what content we want to show on the screen. How is a component created?
+        By creating a function that returns JSX
+    3) ...
+    4) ...
+
+
+L7 Node Setup
+L8 Creating a React Project
+    Check node version:
+        node -v
+    
+    Generating a project:
+        npx create-react-app 'project name'
+
+    Starting a project:
+        cd 'project name'
+        npm start
+
+    Development host and port:
+        Defaults to https://localhost:3000
+        To stop in terminal:
+            CTRL + C 
+
+L9 What is Create React App?
+    Browser/JS cannot read JSX, need to transpile JSX and Components before running
+
+    Babel - Tool to turn JSX inro normal JS code
+
+    Webpack- Tool to merge all project files into a single file (e.g. bundle.js)
+
+    index.js - Frist file that gets executed when our app runs
+    
+    index.html - Skeleton for the React App
+
+    package.json, package-lock.json - Lists dependencies our app needs
+
+    nodes-modules - Contains dependencies our app needs
+
+Going foward, diagrams slides/notes will be enough

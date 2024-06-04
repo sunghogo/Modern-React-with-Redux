@@ -1,0 +1,78 @@
+Section 2: Creating Content with JSX
+    React/JSX into JS code:
+        babeljs.io/repl
+
+    JSX Cheatsheet:
+        https://jsx-notes.vercel.app/
+
+Section 3: Building with Reusable Components
+    React Developer Tools Extension for Browsers:
+        https://react.dev/learn/react-developer-tools
+
+    Bulma CSS Library:
+        https://bulma.io
+
+Section 4: State: How to Change Your App
+    Listing of event names:
+        https://reactjs.org/docs/events.html
+        https://react.dev/reference/react-dom/components/common#common-props 
+
+Section 5:  Using an API with React
+    axios JS Library to make API calls:
+        npm i axios
+
+Section 6: How to Handle Forms
+    State updates cheat sheet:
+        https://state-updates.vercel.app/
+
+    Development and Practice Application Random Pictures API:
+        https://picusm.photos
+        
+Section 7: Data Persistence with API Requests
+    Library for Test/Development DB Server using a json file:
+        npm i json-server
+
+    Extension for Test/Development REST API: 
+        REST Client VSCode Extension
+
+Section 10:
+    PropTypes Library to Validate Props:
+        https://www.npmjs.com/package/prop-types
+        npm i prop-types
+
+    Tailwind CSS Library/Framework:
+        https://tailwindcss.com/docs/guides/create-react-app
+
+    classnames Library to build up className string:
+        https://www.npmjs.com/package/classnames
+        npm i classnames
+
+    react-icons Library to access many different icon libraries:
+        https://react-icons.github.io/react-icons
+        npm i react-icons
+
+
+Section 13: Making Navigation Reusable
+    Popular Navigation Libraries:
+        React-Router:
+            https://www.reactrouter.com
+        Wouter
+        React-Location
+
+
+Section 14: Creating Portals with ReactDOM
+    Generate random text:
+        https://www.lipsum.com
+
+
+Section 18: Into the World of Reducers:
+    Reducer Library to Directly Modify State:
+        npm i immer
+
+
+Section 19: Dive into Redux Toolkit
+    Redux/Redux Toolkit(RTK) Library to centrally manage states and actions:
+        @reduxjs/toolkit
+
+    React-Redux Library to manage integration/communication between Redux and React:
+        react-redux
